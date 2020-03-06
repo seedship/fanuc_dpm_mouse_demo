@@ -288,6 +288,13 @@ END hndl_client_
 
 ROUTINE check_cfg_
 BEGIN
+	
+	cfg.f_tp_ready = 1
+	cfg.f_krl_ready = 2
+	cfg.s_tcp_port = 11010
+	cfg.s_tag_nr = 3
+	cfg.um_clear = TRUE
+	
 	-- check for any uninitialised entries
 	IF (UNINIT(cfg.f_tp_ready )) THEN RETURN (CFG_NOTDONE); ENDIF
 	IF (UNINIT(cfg.f_krl_ready)) THEN RETURN (CFG_NOTDONE); ENDIF
