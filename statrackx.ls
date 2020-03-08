@@ -54,12 +54,12 @@ P[1]{
    GP1:
   UF : 1, UT : 1, 
   J1=     1.000 deg,  J2=     1.000 deg,  J3=     1.000 deg,
-  J4=     1.000 deg,  J5=   -89.000 deg,  J6=     1.000 deg
+  J4=     1.000 deg,  J5=   -90.000 deg,  J6=     1.000 deg
 };
 P[2]{
    GP1:
   UF : 1, UT : 1,   CONFIG : 'N U T, 0, 0, 0',
-  X =   385.000  mm,  Y =     0.000  mm,  Z =   285.000  mm,
-  W =  -180.000 deg,  P =      .000 deg,  R =     0.000 deg
+  X =   470.000  mm,  Y =     0.000  mm,  Z =   -20.000  mm,
+  W =   000.000 deg,  P =   000.000 deg,  R =    00.000 deg
 };
 /END
